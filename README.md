@@ -1,3 +1,22 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/coderemily/emily-blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
