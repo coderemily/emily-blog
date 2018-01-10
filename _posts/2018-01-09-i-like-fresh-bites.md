@@ -1,5 +1,6 @@
 ---
-layout: posts
+layout: post
+title: You're up and running!
 ---
 
 ## Tried Fresh Bites today...
